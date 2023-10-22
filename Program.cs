@@ -34,7 +34,7 @@ namespace EGC_Birsan
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("Alt + H");
             Console.ResetColor();
-            Console.WriteLine(" pentru a ascunde cubul");
+            Console.WriteLine(" pentru a ascunde/afisa cubul");
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("Left Mouse Button");
