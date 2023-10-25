@@ -72,7 +72,9 @@ namespace EGC_Birsan
                 Exit();
                 return;
             }
-
+            // Laborator #02
+            // Implementați o versiune a aplicației în care controlul obiectului randat se face:
+            // ⚫ prin apăsarea a 2 taste;
             else if (keyboard.IsKeyDown(OpenTK.Input.Key.AltLeft) && keyboard.IsKeyDown(OpenTK.Input.Key.H) && !keyboard.Equals(lastKeyPress))
             {
                 if (showCube == true)
@@ -86,6 +88,9 @@ namespace EGC_Birsan
             }
             lastKeyPress = keyboard;
 
+            // Laborator #02
+            // Implementați o versiune a aplicației în care controlul obiectului randat se face:
+            // ⚫ prin mișcarea mouse-ului.
             if (mouse[OpenTK.Input.MouseButton.Left])
             {
                 if (!isRotating)
