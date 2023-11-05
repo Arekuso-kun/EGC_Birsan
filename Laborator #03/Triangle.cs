@@ -36,6 +36,40 @@ namespace Laborator__03
             // 8. coordonatele acestuia vor fi încărcate dintr-un fișier text
             int[] coordonate = new int[9];
 
+            if (!File.Exists(numeFisier))
+            {
+                Console.WriteLine($"Fisierul {numeFisier} nu exista.");
+
+                string[] lines = {
+                    "0",
+                    "0",
+                    "12",
+                    "0",
+                    "-20",
+                    "0",
+                    "18",
+                    "0",
+                    "0"
+                };
+
+                try
+                {
+                    using (StreamWriter sw = new StreamWriter(numeFisier))
+                    {
+                        foreach (string line in lines)
+                        {
+                            sw.WriteLine(line);
+                        }
+                    }
+
+                    Console.WriteLine("Fisierul \"coordonate.txt\" a fost creat cu succes.");
+                }
+                catch (IOException e)
+                {
+                    Console.WriteLine("A aparut o eroare la operarea cu fisierul: " + e.Message);
+                }
+            }
+
             if (File.Exists(numeFisier))
             {
                 coordonate = CitesteNumere(numeFisier, minim, maxim);
