@@ -9,7 +9,13 @@ using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using System.Threading;
 
-namespace EGC_Birsan
+// ======================
+// Laborator #02
+// Bîrsan Dorin-Alexandru
+// grupa 3132a
+// ======================
+
+namespace Laborator__02
 {
     internal class Program : GameWindow
     {
@@ -30,6 +36,13 @@ namespace EGC_Birsan
 
             GL.ClearColor(Color.Blue);
             GL.Enable(EnableCap.DepthTest);
+
+            Console.WriteLine("======================");
+            Console.WriteLine("Laborator #02");
+            Console.WriteLine("Bîrsan Dorin-Alexandru");
+            Console.WriteLine("grupa 3132a");
+            Console.WriteLine("======================");
+            Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("Alt + H");
