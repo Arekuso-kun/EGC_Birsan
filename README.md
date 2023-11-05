@@ -43,11 +43,11 @@ Grupa 3132a
 
 1. Care este ordinea de desenare a vertexurilor pentru aceste metode (orar sau anti-orar)?
 
-   Ordinea de desenare a vertexurilor poate fi definita fie in sens orar fie in sens anti-orar, in functie de modul in care doriti sa defineasca orientarea triunghiurilor.
+  Ordinea de desenare a vertexurilor poate fi definita fie in sens orar fie in sens anti-orar, in functie de modul in care doriti sa defineasca orientarea triunghiurilor.
   
 2. Ce este anti-aliasing? Prezentați această tehnică pe scurt.
 
-   Anti-aliasing este o tehnica folosita in grafica pentru a imbunatati calitatea imaginilor digitale prin estomparea marginilor aspre si eliminarea efectului de zimtare.
+  Anti-aliasing este o tehnica folosita in grafica pentru a imbunatati calitatea imaginilor digitale prin estomparea marginilor aspre si eliminarea efectului de zimtare.
   
 3. Care este efectul rulării comenzii GL.LineWidth(float)? Dar pentru GL.PointSize(float)? Funcționează în interiorul unei zone GL.Begin()?
 
