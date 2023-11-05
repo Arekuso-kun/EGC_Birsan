@@ -51,7 +51,6 @@ Grupa 3132a
   
 3. Care este efectul rulării comenzii GL.LineWidth(float)? Dar pentru GL.PointSize(float)? Funcționează în interiorul unei zone GL.Begin()?
 
-  GL.LineWidth(float) stabilește grosimea liniilor desenate în OpenGL pentru primitivele de linie, cum ar fi GL_LINES. GL.PointSize(float) setează dimensiunea punctelor desenate pentru primitivele de punct, cum ar fi GL_POINTS. Acestea nu funcționează în interiorul unui bloc GL.Begin().
   Comanda GL.LineWidth(float) stabileste grosimea liniilor, si comanda GL.PointSize(float) stabileste dimensiunea punctelor. Aceste comenzi trebuie folosite in afara sectiunii GL.Begin() - GL.End() si nu au efect in interiorul sectiunii.
 
 4. Răspundeți la următoarele întrebări (utilizați ca referință eventual și tutorii OpenGL Nate Robbins):
