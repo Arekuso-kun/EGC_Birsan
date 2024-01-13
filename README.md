@@ -87,6 +87,10 @@ Grupa 3132a
 7. Ce reprezintă un gradient de culoare? Cum se obține acesta în OpenGL?
 
   Un gradient de culoare reprezinta o tranzitie treptata intre doua sau mai multe culori. Se poate obtine un gradient folosind shader-urile pentru a interpola culorile in functie de pozitia sau unghiul de vizualizare a fragmentelor pe ecran.
+
+10. Ce efect are utilizarea unei culori diferite pentru fiecare vertex atunci când desenați o linie sau un triunghi în modul strip?
+
+  Atunci cand se utilizeaza culori diferite pentru fiecare varf al unei linii sau a unui triunghi desenate in modul strip, OpenGL va interpola culorile intre varfuri, creand un efect de gradient sau o tranzitie lina de culoare pe linie sau pe intreaga suprafata a triunghiului.
   
 
 ## Intrebari Laborator 9
