@@ -87,8 +87,23 @@ Grupa 3132a
 7. Ce reprezintă un gradient de culoare? Cum se obține acesta în OpenGL?
 
   Un gradient de culoare reprezinta o tranzitie treptata intre doua sau mai multe culori. Se poate obtine un gradient folosind shader-urile pentru a interpola culorile in functie de pozitia sau unghiul de vizualizare a fragmentelor pe ecran.
+  
 
-10. Ce efect are utilizarea unei culori diferite pentru fiecare vertex atunci când desenați o linie sau un triunghi în modul strip?
+## Intrebari Laborator 9
 
-  Atunci cand se utilizeaza culori diferite pentru fiecare varf al unei linii sau a unui triunghi desenate in modul strip, OpenGL va interpola culorile intre varfuri, creand un efect de gradient sau o tranzitie lina de culoare pe linie sau pe intreaga suprafata a triunghiului.
- 
+1. Utilizați pentru texturare imagini cu transparență și fără. Ce observați?
+
+  In cazul texturarii cu imagini care contin transparenta, partea transparenta a acestora va fi inlocuita cu o culoare solida (alb).
+  
+2. Ce formate de imagine pot fi aplicate în procesul de texturare în OpenGL?
+
+  OpenGL accepta urmatoarele formate de imagine pentru texturare: BMP, PNG, JPG, TGA, etc.
+  
+3. Specificați ce se întâmplă atunci când se modifică culoarea (prin manipularea canalelor RGB) obiectului texturat.
+
+  Modificarea canalelor RGB ale obiectului afecteaza modul in care textura este amestecata cu culoarea obiectului, generand efecte de colorare.
+
+4. Ce deosebiri există între scena ce utilizează obiecte texturate în modul iluminare activat, respectiv dezactivat?
+
+  Iluminare activata: Obiectele texturate reactioneaza la iluminare ambientala, difuza si speculara, oferind un aspect mai realist.
+  Iluminare dezactivata: Obiectele texturate sunt afisate simplu, fara a tine cont de iluminarea in scena, furnizand o imagine mai simpla.
