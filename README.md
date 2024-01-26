@@ -91,7 +91,7 @@ Grupa 3132a
 10. Ce efect are utilizarea unei culori diferite pentru fiecare vertex atunci când desenați o linie sau un triunghi în modul strip?
 
   Atunci cand se utilizeaza culori diferite pentru fiecare varf al unei linii sau a unui triunghi desenate in modul strip, OpenGL va interpola culorile intre varfuri, creand un efect de gradient sau o tranzitie lina de culoare pe linie sau pe intreaga suprafata a triunghiului.
-  
+
 
 ## Intrebari Laborator 9
 
@@ -111,3 +111,20 @@ Grupa 3132a
 
   Iluminare activata: Obiectele texturate reactioneaza la iluminare ambientala, difuza si speculara, oferind un aspect mai realist.
   Iluminare dezactivata: Obiectele texturate sunt afisate simplu, fara a tine cont de iluminarea in scena, furnizand o imagine mai simpla.
+
+
+## Intrebari Laborator 10
+
+1. Care este rolul comenzilor GL.Push() și GL. Pop()? De ce este necesară utilizarea lor?
+
+  GL.Push() salveaza starea curenta a matricei pe stiva, iar GL.Pop() o restabileste. Acestea sunt esentiale pentru gestionarea matricelor si pentru a realiza modificari temporare intr-un context.
+  
+2. Explicați efectul rulării metodelor GL.Rotate(), GL.Translate() și GL.Scale().
+
+  GL.Rotate(): rotirea obiectelor in jurul originii
+  GL.Translate(): translatia obiectelor in spatiu
+  GL.Scale(): scalarea obiectelor
+  
+3. Câte nivele de manipulări ierarhice (folosindu-se GL.Push()/GL.Pop()) suportă o scenă OpenGL?
+
+  OpenGL nu impune un numar fix de nivele de manipulare ierarhica.
