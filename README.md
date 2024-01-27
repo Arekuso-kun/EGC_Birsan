@@ -119,11 +119,20 @@ Grupa 3132a
 
   GL.Push() salveaza starea curenta a matricei pe stiva, iar GL.Pop() o restabileste. Acestea sunt esentiale pentru gestionarea matricelor si pentru a realiza modificari temporare intr-un context.
   
-2. Explicați efectul rulării metodelor GL.Rotate(), GL.Translate() și GL.Scale().
+2. Explicați efectul rulării metodelor GL.Rotate(), GL.Translate() și GL.Scale(). Furnizați câte un exemplu comentat!
 
   GL.Rotate(): rotirea obiectelor in jurul originii
+  ```C#
+  GL.Rotate(45.0, 1.0, 0.0, 0.0);  // Rotire de 45 de grade in jurul axei x
+  ```
   GL.Translate(): translatia obiectelor in spatiu
+  ```C#
+  GL.Translate(10.0, 0.0, 0.0);  // Translație cu 10 unități pe axa x
+  ```
   GL.Scale(): scalarea obiectelor
+  ```C#
+  GL.Scale(2.0, 1.0, 1.0);  // Scalare cu un factor de 2 pe axa x
+  ```
   
 3. Câte nivele de manipulări ierarhice (folosindu-se GL.Push()/GL.Pop()) suportă o scenă OpenGL?
 
